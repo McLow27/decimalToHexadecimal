@@ -1,10 +1,7 @@
 import java.util.Scanner;
 
 public class decToHexa {
-    public decToHexa(){
-
-    }
-    public void dec(){
+    public static void dec(){
         int rem;
         Scanner scan = new Scanner(System.in);
         char[] hexa = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
